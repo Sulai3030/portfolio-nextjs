@@ -1,9 +1,20 @@
+// This is the Link API
+import Link from 'next/link'
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
-const Home = () => (
+
+
+
+
+const Index = () => (
   <div>
+    <Link href="/about">
+      <a>About Page</a>
+    </Link>
+    <p>Hello Next.js</p>
+    <div>
     <Head>
       <title>Home</title>
       <link rel='icon' href='/favicon.ico' />
@@ -105,5 +116,7 @@ const Home = () => (
     `}</style>
   </div>
 )
+  </div>
+);
 
-export default Home
+export default Index;
