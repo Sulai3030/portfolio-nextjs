@@ -2,8 +2,6 @@
 import Link from 'next/link'
 import React from 'react'
 import Head from 'next/head'
-import Nav from '../components/nav'
-
 
 const Index = () => (
   <div>
@@ -12,7 +10,8 @@ const Index = () => (
     <Head>
       <title>Home</title>
     </Head>
-    <Nav /><Link href="/about">
+    
+    <Link href="/about">
       <a>About Page</a>
     </Link>
     <div className='hero'>
