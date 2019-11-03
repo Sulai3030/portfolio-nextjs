@@ -11,8 +11,8 @@ const Index = () => (
       <title>Home</title>
     </Head>
     
-    <Link href="/about">
-      <a>About Page</a>
+    <Link href="/blog">
+      <a>Blog</a>
     </Link>
     <div className='hero'>
       <h1 className='title'>Sulai Sivadel</h1>
@@ -68,6 +68,13 @@ const Index = () => (
           <h3>Giphy API Project &rarr;</h3>
           <p>The Giphy API goal assignment was to create a webpage and dynamically populate a grid with gifs when the user input a search parameter. Using an array as well as jQuery and event handlers I was able to allow a user via an Ajax call to populate the page with appropriate gifs by stipulatinig the rating in the if statement.
         </p>
+        </a>
+      </div>
+      <div className='row'>
+        <a href="/blog">
+          
+          <h3>Dante Calabria's Socks &rarr;</h3>
+          <p>My old blog, Dante Calabria's Sox was dedicated to film review and dissection. It was named after Dante Calbia, a player on the University of North Carolina Tar Heels basketball team who was noted for not wearing socks while he played. I was a professional writer of sustainable food recipes, TV and Film Reviews, as well as educational and Technical Writing. Samples of which can be found </p>
         </a>
       </div>
     <style jsx>{`
