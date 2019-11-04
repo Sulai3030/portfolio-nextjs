@@ -2,6 +2,10 @@
 import Link from 'next/link'
 import React from 'react'
 import Head from 'next/head'
+import Layout from './components/MyLayout';
+import Header from './components/Header';
+
+
 
 const Index = () => (
   <div>
