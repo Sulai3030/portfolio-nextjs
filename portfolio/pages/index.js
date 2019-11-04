@@ -71,10 +71,10 @@ const Index = () => (
         </a>
       </div>
       <div className='row'>
-        <a href="/blog">
-          
+        <a href="/blog" className='card'>
           <h3>Dante Calabria's Socks &rarr;</h3>
-          <p>My old blog, Dante Calabria's Sox was dedicated to film review and dissection. It was named after Dante Calbia, a player on the University of North Carolina Tar Heels basketball team who was noted for not wearing socks while he played. I was a professional writer of sustainable food recipes, TV and Film Reviews, as well as educational and Technical Writing. Samples of which can be found </p>
+          <p>My old blog, Dante Calabria's Sox was dedicated to film review and dissection. It was named after Dante Calbia, a player on the University of North Carolina Tar Heels basketball team who was noted for not wearing socks while he played. I was a professional writer of sustainable food recipes, TV and Film Reviews, as well as educational and Technical Writing. Samples of which can be found.
+          </p>
         </a>
       </div>
     <style jsx>{`
